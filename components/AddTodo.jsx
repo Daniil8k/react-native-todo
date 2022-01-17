@@ -5,7 +5,7 @@ import DateTimePicker from '@react-native-community/datetimepicker';
 import getTime from '../utils/getTime'
 
 export default function AddTodo({ add }) {
-    const [text, setText] = useState('text')
+    const [text, setText] = useState('todo text')
     const [date, setDate] = useState('2022-01-17T13:50:52.371Z');
     const [show, setShow] = useState(false);
 
